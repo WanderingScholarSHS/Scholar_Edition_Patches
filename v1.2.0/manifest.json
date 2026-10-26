@@ -1,0 +1,14 @@
+{
+  "version": "1.2.0",
+  "zip": "scholar_patches.zip",
+  "sha256": "32B8AC31CE0310C317223C7DE9E47954326AE78060396F71514499AB4AE8AA48",
+  "patches": [
+    {
+      "id": 100,
+      "title": "Better Shadows of Amn Start",
+      "date": "2026-10-25",
+      "description": "Gives better starting XP for an SOA adventure start",
+      "requires": []
+    }
+  ]
+}
