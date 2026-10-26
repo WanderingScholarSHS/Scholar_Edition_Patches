@@ -149,3 +149,4 @@ foreach ($p in $patches) {
 }
 Write-Host ''
 Write-Host 'Next: git add -A; git commit -m "..."; git push' -ForegroundColor DarkGray
+Read-Host -Prompt "Script Complete"

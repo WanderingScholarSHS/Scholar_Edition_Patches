@@ -1,13 +1,20 @@
 {
   "version": "1.2.0",
   "zip": "scholar_patches.zip",
-  "sha256": "32B8AC31CE0310C317223C7DE9E47954326AE78060396F71514499AB4AE8AA48",
+  "sha256": "012E46CC84DC067C6093252D32CF4E2D46652568CFD583DBDD0DCFAE096FF66A",
   "patches": [
     {
       "id": 100,
       "title": "Better Shadows of Amn Start",
       "date": "2026-10-25",
       "description": "Gives better starting XP for an SOA adventure start",
+      "requires": []
+    },
+    {
+      "id": 105,
+      "title": "Give Ribald better existence delay",
+      "date": "2026-10-26",
+      "description": "Let Ribald chatter more often by removing the existence delay effect",
       "requires": []
     }
   ]
