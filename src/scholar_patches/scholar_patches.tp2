@@ -1,0 +1,20 @@
+BACKUP ~scholar_patches/backup~
+AUTHOR ~WanderingScholar~
+VERSION ~v1.2.0-p2~
+AUTO_EVAL_STRINGS
+LANGUAGE ~English~ ~english~
+
+// Gives better starting XP for an SOA adventure start
+BEGIN ~Better Shadows of Amn Start~ DESIGNATED 100 LABEL ~scholar-p100~
+  COPY_EXISTING ~AR0602.BCS~ ~override~
+DECOMPILE_AND_PATCH BEGIN
+	REPLACE_TEXTUALLY ~66750~ ~161000~
+  END
+BUT_ONLY
+
+// Let Ribald chatter more often by removing the existence delay effect
+BEGIN ~Give Ribald better existence delay~ DESIGNATED 105 LABEL ~scholar-p105~
+ COPY_EXISTING ~RIBALD.CRE~ ~override~
+	LPF DELETE_EFFECT INT_VAR match_opcode = 294 END
+ BUT_ONLY
+
